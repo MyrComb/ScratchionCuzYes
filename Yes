@@ -1,0 +1,14 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/mextirin/ScratchLoader/main/main', true))()
+local w = library:AddWindow('Scratch Loader | Anti-Leak')
+local tab = w:AddTab('Main')
+
+print("Made by Empire#4946, Copyrighted btw LMAO")
+
+tab:AddLabel('Game: Da hood Modded')
+tab:AddLabel('Made by Empire#4946')
+
+tab:AddSwitch('Load Scratchion', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MyrComb/Scratchion/main/ScratchionBETA", true))()
+    wait(0.1)
+    game.CoreGui.imgui:Destroy()
+end)
