@@ -8,7 +8,7 @@ tab:AddLabel('Game: Da hood Modded')
 tab:AddLabel('Made by Empire#4946')
 
 tab:AddSwitch('Load Scratchion', function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MyrComb/Scratchion/main/ScratchionBETA", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MyrComb/Scratchion/main/OBFUSCATED", true))()
     wait(0.1)
     game.CoreGui.imgui:Destroy()
 end)
